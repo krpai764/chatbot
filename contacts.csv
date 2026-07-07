@@ -1,0 +1,41 @@
+contact_id,name,email,title,account_id,company,phone
+CON-2001,Chloe Novak,chloe.novak@hooli.com,CTO,ACC-1006,Hooli,+1-555-5374
+CON-2002,Mia Patel,mia.patel@initech.com,IT Director,ACC-1003,Initech,+1-555-5010
+CON-2003,Noah Ali,noah.ali@hooli.com,VP Sales,ACC-1006,Hooli,+1-555-4598
+CON-2004,Sara Gomez,sara.gomez@pied.com,Founder,ACC-1011,Pied Piper,+1-555-1525
+CON-2005,Diego Chen,diego.chen@pied.com,CEO,ACC-1011,Pied Piper,+1-555-4456
+CON-2006,Ben Gomez,ben.gomez@prestige.com,Ops Lead,ACC-1019,Prestige WW,+1-555-9179
+CON-2007,Noah Patel,noah.patel@massive.com,VP Sales,ACC-1013,Massive Dynamic,+1-555-3287
+CON-2008,Sam Kaur,sam.kaur@stark.com,VP Sales,ACC-1008,Stark Labs,+1-555-8019
+CON-2009,Diego Novak,diego.novak@prestige.com,CTO,ACC-1019,Prestige WW,+1-555-3266
+CON-2010,Yuki Lee,yuki.lee@bluth.com,Founder,ACC-1017,Bluth Co,+1-555-1771
+CON-2011,Ken Patel,ken.patel@umbrella.com,Founder,ACC-1004,Umbrella Co,+1-555-7916
+CON-2012,Wei Ali,wei.ali@sterling.com,Procurement Mgr,ACC-1020,Sterling Cooper,+1-555-8668
+CON-2013,Raj Kaur,raj.kaur@bluth.com,Founder,ACC-1017,Bluth Co,+1-555-1188
+CON-2014,Sam Chen,sam.chen@umbrella.com,Founder,ACC-1004,Umbrella Co,+1-555-6573
+CON-2015,Elena Ali,elena.ali@umbrella.com,CTO,ACC-1004,Umbrella Co,+1-555-8433
+CON-2016,Raj Kaur,raj.kaur@acme.com,Founder,ACC-1001,Acme Corp,+1-555-3927
+CON-2017,Nadia Chen,nadia.chen@bluth.com,Founder,ACC-1017,Bluth Co,+1-555-9317
+CON-2018,Omar Patel,omar.patel@sterling.com,VP Sales,ACC-1020,Sterling Cooper,+1-555-3646
+CON-2019,Ana Smith,ana.smith@dunder.com,IT Director,ACC-1018,Dunder Mifflin,+1-555-6310
+CON-2020,James Lee,james.lee@tyrell.com,VP Sales,ACC-1016,Tyrell Corp,+1-555-6038
+CON-2021,Sara Gomez,sara.gomez@stark.com,IT Director,ACC-1008,Stark Labs,+1-555-2290
+CON-2022,Yuki Lee,yuki.lee@initech.com,Founder,ACC-1003,Initech,+1-555-9727
+CON-2023,Ken Brown,ken.brown@soylent.com,IT Director,ACC-1005,Soylent Inc,+1-555-3705
+CON-2024,Ana Rossi,ana.rossi@wayne.com,Procurement Mgr,ACC-1009,Wayne Ent,+1-555-4470
+CON-2025,Omar Chen,omar.chen@dunder.com,Procurement Mgr,ACC-1018,Dunder Mifflin,+1-555-7118
+CON-2026,Ana Brown,ana.brown@nakatomi.com,CEO,ACC-1015,Nakatomi,+1-555-5061
+CON-2027,Wei Novak,wei.novak@stark.com,CEO,ACC-1008,Stark Labs,+1-555-4770
+CON-2028,Grace Smith,grace.smith@prestige.com,CEO,ACC-1019,Prestige WW,+1-555-1964
+CON-2029,Wei Smith,wei.smith@stark.com,Founder,ACC-1008,Stark Labs,+1-555-6413
+CON-2030,Ana Gomez,ana.gomez@initech.com,VP Sales,ACC-1003,Initech,+1-555-8953
+CON-2031,Sam Patel,sam.patel@vandelay.com,Ops Lead,ACC-1007,Vandelay Ind,+1-555-8744
+CON-2032,Yuki Ali,yuki.ali@stark.com,CTO,ACC-1008,Stark Labs,+1-555-2545
+CON-2033,Fatima Novak,fatima.novak@umbrella.com,Procurement Mgr,ACC-1004,Umbrella Co,+1-555-7735
+CON-2034,Sara Lee,sara.lee@nakatomi.com,CEO,ACC-1015,Nakatomi,+1-555-7596
+CON-2035,Nadia Gomez,nadia.gomez@pied.com,CTO,ACC-1011,Pied Piper,+1-555-4116
+CON-2036,Noah Patel,noah.patel@dunder.com,Procurement Mgr,ACC-1018,Dunder Mifflin,+1-555-4006
+CON-2037,Noah Gomez,noah.gomez@wayne.com,Founder,ACC-1009,Wayne Ent,+1-555-2235
+CON-2038,Sam Lee,sam.lee@nakatomi.com,CEO,ACC-1015,Nakatomi,+1-555-9856
+CON-2039,Wei Gomez,wei.gomez@acme.com,CTO,ACC-1001,Acme Corp,+1-555-7658
+CON-2040,Yuki Gomez,yuki.gomez@tyrell.com,Founder,ACC-1016,Tyrell Corp,+1-555-7570

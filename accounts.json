@@ -1,0 +1,166 @@
+{
+  "accounts": [
+    {
+      "account_id": "ACC-1001",
+      "company": "Acme Corp",
+      "industry": "Logistics",
+      "employees": 25,
+      "country": "USA",
+      "annual_revenue_usd": 3400000
+    },
+    {
+      "account_id": "ACC-1002",
+      "company": "Globex",
+      "industry": "Manufacturing",
+      "employees": 50,
+      "country": "UK",
+      "annual_revenue_usd": 500000
+    },
+    {
+      "account_id": "ACC-1003",
+      "company": "Initech",
+      "industry": "Logistics",
+      "employees": 1500,
+      "country": "Canada",
+      "annual_revenue_usd": 500000
+    },
+    {
+      "account_id": "ACC-1004",
+      "company": "Umbrella Co",
+      "industry": "Fintech",
+      "employees": 300,
+      "country": "USA",
+      "annual_revenue_usd": 500000
+    },
+    {
+      "account_id": "ACC-1005",
+      "company": "Soylent Inc",
+      "industry": "SaaS",
+      "employees": 50,
+      "country": "UK",
+      "annual_revenue_usd": 25000000
+    },
+    {
+      "account_id": "ACC-1006",
+      "company": "Hooli",
+      "industry": "Fintech",
+      "employees": 25,
+      "country": "Canada",
+      "annual_revenue_usd": 1200000
+    },
+    {
+      "account_id": "ACC-1007",
+      "company": "Vandelay Ind",
+      "industry": "Logistics",
+      "employees": 1500,
+      "country": "Brazil",
+      "annual_revenue_usd": 25000000
+    },
+    {
+      "account_id": "ACC-1008",
+      "company": "Stark Labs",
+      "industry": "Retail",
+      "employees": 50,
+      "country": "India",
+      "annual_revenue_usd": 25000000
+    },
+    {
+      "account_id": "ACC-1009",
+      "company": "Wayne Ent",
+      "industry": "Healthcare",
+      "employees": 5000,
+      "country": "USA",
+      "annual_revenue_usd": 1200000
+    },
+    {
+      "account_id": "ACC-1010",
+      "company": "Wonka LLC",
+      "industry": "Logistics",
+      "employees": 300,
+      "country": "Germany",
+      "annual_revenue_usd": 3400000
+    },
+    {
+      "account_id": "ACC-1011",
+      "company": "Pied Piper",
+      "industry": "Manufacturing",
+      "employees": 50,
+      "country": "Germany",
+      "annual_revenue_usd": 500000
+    },
+    {
+      "account_id": "ACC-1012",
+      "company": "Cyberdyne",
+      "industry": "SaaS",
+      "employees": 300,
+      "country": "USA",
+      "annual_revenue_usd": 3400000
+    },
+    {
+      "account_id": "ACC-1013",
+      "company": "Massive Dynamic",
+      "industry": "Healthcare",
+      "employees": 800,
+      "country": "Germany",
+      "annual_revenue_usd": 500000
+    },
+    {
+      "account_id": "ACC-1014",
+      "company": "Gekko Capital",
+      "industry": "Logistics",
+      "employees": 300,
+      "country": "Canada",
+      "annual_revenue_usd": 500000
+    },
+    {
+      "account_id": "ACC-1015",
+      "company": "Nakatomi",
+      "industry": "Retail",
+      "employees": 25,
+      "country": "Canada",
+      "annual_revenue_usd": 3400000
+    },
+    {
+      "account_id": "ACC-1016",
+      "company": "Tyrell Corp",
+      "industry": "Logistics",
+      "employees": 800,
+      "country": "Germany",
+      "annual_revenue_usd": 25000000
+    },
+    {
+      "account_id": "ACC-1017",
+      "company": "Bluth Co",
+      "industry": "Manufacturing",
+      "employees": 1500,
+      "country": "USA",
+      "annual_revenue_usd": 500000
+    },
+    {
+      "account_id": "ACC-1018",
+      "company": "Dunder Mifflin",
+      "industry": "Logistics",
+      "employees": 50,
+      "country": "Germany",
+      "annual_revenue_usd": 500000
+    },
+    {
+      "account_id": "ACC-1019",
+      "company": "Prestige WW",
+      "industry": "Manufacturing",
+      "employees": 5000,
+      "country": "USA",
+      "annual_revenue_usd": 8900000
+    },
+    {
+      "account_id": "ACC-1020",
+      "company": "Sterling Cooper",
+      "industry": "Healthcare",
+      "employees": 300,
+      "country": "Brazil",
+      "annual_revenue_usd": 3400000
+    }
+  ],
+  "exported": "2026-07-07",
+  "count": 20
+}

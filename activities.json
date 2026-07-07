@@ -1,0 +1,722 @@
+[
+  {
+    "activity_id": "ACT-4001",
+    "deal_id": "DEAL-3010",
+    "company": "Initech",
+    "owner": "Aisha Khan",
+    "type": "Email",
+    "date": "2025-03-03",
+    "notes": "Requested case studies"
+  },
+  {
+    "activity_id": "ACT-4002",
+    "deal_id": "DEAL-3043",
+    "company": "Hooli",
+    "owner": "Lena Osei",
+    "type": "Follow-up",
+    "date": "2025-01-30",
+    "notes": "Negotiating contract terms"
+  },
+  {
+    "activity_id": "ACT-4003",
+    "deal_id": "DEAL-3030",
+    "company": "Umbrella Co",
+    "owner": "Tom Fischer",
+    "type": "Meeting",
+    "date": "2025-06-29",
+    "notes": "Positive call, moving forward"
+  },
+  {
+    "activity_id": "ACT-4004",
+    "deal_id": "DEAL-3011",
+    "company": "Vandelay Ind",
+    "owner": "Lena Osei",
+    "type": "Follow-up",
+    "date": "2025-06-05",
+    "notes": "Sent proposal v2"
+  },
+  {
+    "activity_id": "ACT-4005",
+    "deal_id": "DEAL-3050",
+    "company": "Gekko Capital",
+    "owner": "Tom Fischer",
+    "type": "Meeting",
+    "date": "2025-02-11",
+    "notes": "Sent proposal v2"
+  },
+  {
+    "activity_id": "ACT-4006",
+    "deal_id": "DEAL-3038",
+    "company": "Initech",
+    "owner": "Priya Nair",
+    "type": "Meeting",
+    "date": "2025-01-07",
+    "notes": "Champion changed roles"
+  },
+  {
+    "activity_id": "ACT-4007",
+    "deal_id": "DEAL-3044",
+    "company": "Soylent Inc",
+    "owner": "Tom Fischer",
+    "type": "Demo",
+    "date": "2025-04-07",
+    "notes": "Negotiating contract terms"
+  },
+  {
+    "activity_id": "ACT-4008",
+    "deal_id": "DEAL-3005",
+    "company": "Bluth Co",
+    "owner": "Aisha Khan",
+    "type": "Email",
+    "date": "2025-06-01",
+    "notes": "Sent proposal v2"
+  },
+  {
+    "activity_id": "ACT-4009",
+    "deal_id": "DEAL-3045",
+    "company": "Nakatomi",
+    "owner": "Lena Osei",
+    "type": "Meeting",
+    "date": "2025-07-17",
+    "notes": "Champion changed roles"
+  },
+  {
+    "activity_id": "ACT-4010",
+    "deal_id": "DEAL-3052",
+    "company": "Prestige WW",
+    "owner": "Tom Fischer",
+    "type": "Follow-up",
+    "date": "2025-01-31",
+    "notes": "Discussed pricing tiers"
+  },
+  {
+    "activity_id": "ACT-4011",
+    "deal_id": "DEAL-3023",
+    "company": "Hooli",
+    "owner": "Priya Nair",
+    "type": "Demo",
+    "date": "2025-05-17",
+    "notes": "Positive call, moving forward"
+  },
+  {
+    "activity_id": "ACT-4012",
+    "deal_id": "DEAL-3005",
+    "company": "Bluth Co",
+    "owner": "Aisha Khan",
+    "type": "Meeting",
+    "date": "2025-05-10",
+    "notes": "Discussed pricing tiers"
+  },
+  {
+    "activity_id": "ACT-4013",
+    "deal_id": "DEAL-3055",
+    "company": "Hooli",
+    "owner": "Tom Fischer",
+    "type": "Demo",
+    "date": "2025-04-18",
+    "notes": "Sent proposal v2"
+  },
+  {
+    "activity_id": "ACT-4014",
+    "deal_id": "DEAL-3028",
+    "company": "Umbrella Co",
+    "owner": "Priya Nair",
+    "type": "Demo",
+    "date": "2025-04-03",
+    "notes": "Client asked for demo"
+  },
+  {
+    "activity_id": "ACT-4015",
+    "deal_id": "DEAL-3028",
+    "company": "Umbrella Co",
+    "owner": "Priya Nair",
+    "type": "Follow-up",
+    "date": "2025-02-15",
+    "notes": "Waiting on procurement sign-off"
+  },
+  {
+    "activity_id": "ACT-4016",
+    "deal_id": "DEAL-3040",
+    "company": "Stark Labs",
+    "owner": "Tom Fischer",
+    "type": "Demo",
+    "date": "2025-05-18",
+    "notes": "Requested case studies"
+  },
+  {
+    "activity_id": "ACT-4017",
+    "deal_id": "DEAL-3028",
+    "company": "Umbrella Co",
+    "owner": "Priya Nair",
+    "type": "Follow-up",
+    "date": "2025-07-07",
+    "notes": "Waiting on procurement sign-off"
+  },
+  {
+    "activity_id": "ACT-4018",
+    "deal_id": "DEAL-3021",
+    "company": "Stark Labs",
+    "owner": "Aisha Khan",
+    "type": "Call",
+    "date": "2025-03-04",
+    "notes": "Waiting on procurement sign-off"
+  },
+  {
+    "activity_id": "ACT-4019",
+    "deal_id": "DEAL-3057",
+    "company": "Nakatomi",
+    "owner": "Marco Reyes",
+    "type": "Email",
+    "date": "2025-04-26",
+    "notes": "Requested case studies"
+  },
+  {
+    "activity_id": "ACT-4020",
+    "deal_id": "DEAL-3037",
+    "company": "Nakatomi",
+    "owner": "Tom Fischer",
+    "type": "Demo",
+    "date": "2025-06-06",
+    "notes": "Positive call, moving forward"
+  },
+  {
+    "activity_id": "ACT-4021",
+    "deal_id": "DEAL-3002",
+    "company": "Gekko Capital",
+    "owner": "Lena Osei",
+    "type": "Meeting",
+    "date": "2025-05-07",
+    "notes": "Client asked for demo"
+  },
+  {
+    "activity_id": "ACT-4022",
+    "deal_id": "DEAL-3032",
+    "company": "Gekko Capital",
+    "owner": "Aisha Khan",
+    "type": "Meeting",
+    "date": "2025-02-24",
+    "notes": "Waiting on procurement sign-off"
+  },
+  {
+    "activity_id": "ACT-4023",
+    "deal_id": "DEAL-3022",
+    "company": "Soylent Inc",
+    "owner": "Marco Reyes",
+    "type": "Follow-up",
+    "date": "2025-03-13",
+    "notes": "Waiting on procurement sign-off"
+  },
+  {
+    "activity_id": "ACT-4024",
+    "deal_id": "DEAL-3036",
+    "company": "Wonka LLC",
+    "owner": "Marco Reyes",
+    "type": "Follow-up",
+    "date": "2025-01-03",
+    "notes": "Negotiating contract terms"
+  },
+  {
+    "activity_id": "ACT-4025",
+    "deal_id": "DEAL-3006",
+    "company": "Stark Labs",
+    "owner": "Tom Fischer",
+    "type": "Demo",
+    "date": "2025-03-03",
+    "notes": "Requested case studies"
+  },
+  {
+    "activity_id": "ACT-4026",
+    "deal_id": "DEAL-3036",
+    "company": "Wonka LLC",
+    "owner": "Marco Reyes",
+    "type": "Email",
+    "date": "2025-07-14",
+    "notes": "Requested case studies"
+  },
+  {
+    "activity_id": "ACT-4027",
+    "deal_id": "DEAL-3042",
+    "company": "Soylent Inc",
+    "owner": "Aisha Khan",
+    "type": "Demo",
+    "date": "2025-07-02",
+    "notes": "Requested case studies"
+  },
+  {
+    "activity_id": "ACT-4028",
+    "deal_id": "DEAL-3051",
+    "company": "Gekko Capital",
+    "owner": "Tom Fischer",
+    "type": "Call",
+    "date": "2025-01-05",
+    "notes": "Waiting on procurement sign-off"
+  },
+  {
+    "activity_id": "ACT-4029",
+    "deal_id": "DEAL-3015",
+    "company": "Wonka LLC",
+    "owner": "Lena Osei",
+    "type": "Email",
+    "date": "2025-04-14",
+    "notes": "Waiting on procurement sign-off"
+  },
+  {
+    "activity_id": "ACT-4030",
+    "deal_id": "DEAL-3043",
+    "company": "Hooli",
+    "owner": "Lena Osei",
+    "type": "Meeting",
+    "date": "2025-05-29",
+    "notes": "Requested case studies"
+  },
+  {
+    "activity_id": "ACT-4031",
+    "deal_id": "DEAL-3036",
+    "company": "Wonka LLC",
+    "owner": "Marco Reyes",
+    "type": "Meeting",
+    "date": "2025-05-16",
+    "notes": "Concerns about timeline"
+  },
+  {
+    "activity_id": "ACT-4032",
+    "deal_id": "DEAL-3048",
+    "company": "Wonka LLC",
+    "owner": "Marco Reyes",
+    "type": "Meeting",
+    "date": "2025-05-21",
+    "notes": "Positive call, moving forward"
+  },
+  {
+    "activity_id": "ACT-4033",
+    "deal_id": "DEAL-3045",
+    "company": "Nakatomi",
+    "owner": "Lena Osei",
+    "type": "Meeting",
+    "date": "2025-04-27",
+    "notes": "Waiting on procurement sign-off"
+  },
+  {
+    "activity_id": "ACT-4034",
+    "deal_id": "DEAL-3017",
+    "company": "Gekko Capital",
+    "owner": "Priya Nair",
+    "type": "Call",
+    "date": "2025-03-01",
+    "notes": "Negotiating contract terms"
+  },
+  {
+    "activity_id": "ACT-4035",
+    "deal_id": "DEAL-3021",
+    "company": "Stark Labs",
+    "owner": "Aisha Khan",
+    "type": "Follow-up",
+    "date": "2025-01-31",
+    "notes": "Client asked for demo"
+  },
+  {
+    "activity_id": "ACT-4036",
+    "deal_id": "DEAL-3013",
+    "company": "Bluth Co",
+    "owner": "Aisha Khan",
+    "type": "Demo",
+    "date": "2025-02-25",
+    "notes": "Waiting on procurement sign-off"
+  },
+  {
+    "activity_id": "ACT-4037",
+    "deal_id": "DEAL-3047",
+    "company": "Bluth Co",
+    "owner": "Tom Fischer",
+    "type": "Follow-up",
+    "date": "2025-05-31",
+    "notes": "Champion changed roles"
+  },
+  {
+    "activity_id": "ACT-4038",
+    "deal_id": "DEAL-3019",
+    "company": "Soylent Inc",
+    "owner": "Lena Osei",
+    "type": "Email",
+    "date": "2025-01-26",
+    "notes": "Waiting on procurement sign-off"
+  },
+  {
+    "activity_id": "ACT-4039",
+    "deal_id": "DEAL-3015",
+    "company": "Wonka LLC",
+    "owner": "Lena Osei",
+    "type": "Email",
+    "date": "2025-04-03",
+    "notes": "Waiting on procurement sign-off"
+  },
+  {
+    "activity_id": "ACT-4040",
+    "deal_id": "DEAL-3001",
+    "company": "Globex",
+    "owner": "Marco Reyes",
+    "type": "Follow-up",
+    "date": "2025-07-01",
+    "notes": "Client asked for demo"
+  },
+  {
+    "activity_id": "ACT-4041",
+    "deal_id": "DEAL-3018",
+    "company": "Nakatomi",
+    "owner": "Lena Osei",
+    "type": "Call",
+    "date": "2025-01-12",
+    "notes": "Budget approved"
+  },
+  {
+    "activity_id": "ACT-4042",
+    "deal_id": "DEAL-3019",
+    "company": "Soylent Inc",
+    "owner": "Lena Osei",
+    "type": "Email",
+    "date": "2025-06-28",
+    "notes": "Requested case studies"
+  },
+  {
+    "activity_id": "ACT-4043",
+    "deal_id": "DEAL-3007",
+    "company": "Globex",
+    "owner": "Lena Osei",
+    "type": "Follow-up",
+    "date": "2025-01-04",
+    "notes": "Waiting on procurement sign-off"
+  },
+  {
+    "activity_id": "ACT-4044",
+    "deal_id": "DEAL-3031",
+    "company": "Gekko Capital",
+    "owner": "Aisha Khan",
+    "type": "Demo",
+    "date": "2025-05-03",
+    "notes": "Positive call, moving forward"
+  },
+  {
+    "activity_id": "ACT-4045",
+    "deal_id": "DEAL-3012",
+    "company": "Wonka LLC",
+    "owner": "Marco Reyes",
+    "type": "Meeting",
+    "date": "2025-01-14",
+    "notes": "Requested case studies"
+  },
+  {
+    "activity_id": "ACT-4046",
+    "deal_id": "DEAL-3008",
+    "company": "Pied Piper",
+    "owner": "Priya Nair",
+    "type": "Demo",
+    "date": "2025-01-17",
+    "notes": "Requested case studies"
+  },
+  {
+    "activity_id": "ACT-4047",
+    "deal_id": "DEAL-3005",
+    "company": "Bluth Co",
+    "owner": "Aisha Khan",
+    "type": "Call",
+    "date": "2025-05-28",
+    "notes": "Client asked for demo"
+  },
+  {
+    "activity_id": "ACT-4048",
+    "deal_id": "DEAL-3010",
+    "company": "Initech",
+    "owner": "Aisha Khan",
+    "type": "Meeting",
+    "date": "2025-05-25",
+    "notes": "Sent proposal v2"
+  },
+  {
+    "activity_id": "ACT-4049",
+    "deal_id": "DEAL-3016",
+    "company": "Tyrell Corp",
+    "owner": "Priya Nair",
+    "type": "Follow-up",
+    "date": "2025-01-31",
+    "notes": "Concerns about timeline"
+  },
+  {
+    "activity_id": "ACT-4050",
+    "deal_id": "DEAL-3039",
+    "company": "Stark Labs",
+    "owner": "Priya Nair",
+    "type": "Follow-up",
+    "date": "2025-06-02",
+    "notes": "Negotiating contract terms"
+  },
+  {
+    "activity_id": "ACT-4051",
+    "deal_id": "DEAL-3050",
+    "company": "Gekko Capital",
+    "owner": "Tom Fischer",
+    "type": "Demo",
+    "date": "2025-05-14",
+    "notes": "Requested case studies"
+  },
+  {
+    "activity_id": "ACT-4052",
+    "deal_id": "DEAL-3059",
+    "company": "Initech",
+    "owner": "Tom Fischer",
+    "type": "Meeting",
+    "date": "2025-04-24",
+    "notes": "Champion changed roles"
+  },
+  {
+    "activity_id": "ACT-4053",
+    "deal_id": "DEAL-3028",
+    "company": "Umbrella Co",
+    "owner": "Priya Nair",
+    "type": "Follow-up",
+    "date": "2025-03-20",
+    "notes": "Champion changed roles"
+  },
+  {
+    "activity_id": "ACT-4054",
+    "deal_id": "DEAL-3004",
+    "company": "Globex",
+    "owner": "Lena Osei",
+    "type": "Call",
+    "date": "2025-06-06",
+    "notes": "Negotiating contract terms"
+  },
+  {
+    "activity_id": "ACT-4055",
+    "deal_id": "DEAL-3041",
+    "company": "Prestige WW",
+    "owner": "Marco Reyes",
+    "type": "Meeting",
+    "date": "2025-02-24",
+    "notes": "Sent proposal v2"
+  },
+  {
+    "activity_id": "ACT-4056",
+    "deal_id": "DEAL-3011",
+    "company": "Vandelay Ind",
+    "owner": "Lena Osei",
+    "type": "Email",
+    "date": "2025-03-03",
+    "notes": "Budget approved"
+  },
+  {
+    "activity_id": "ACT-4057",
+    "deal_id": "DEAL-3005",
+    "company": "Bluth Co",
+    "owner": "Aisha Khan",
+    "type": "Call",
+    "date": "2025-02-10",
+    "notes": "Concerns about timeline"
+  },
+  {
+    "activity_id": "ACT-4058",
+    "deal_id": "DEAL-3029",
+    "company": "Gekko Capital",
+    "owner": "Priya Nair",
+    "type": "Follow-up",
+    "date": "2025-06-26",
+    "notes": "Requested case studies"
+  },
+  {
+    "activity_id": "ACT-4059",
+    "deal_id": "DEAL-3019",
+    "company": "Soylent Inc",
+    "owner": "Lena Osei",
+    "type": "Email",
+    "date": "2025-01-09",
+    "notes": "Waiting on procurement sign-off"
+  },
+  {
+    "activity_id": "ACT-4060",
+    "deal_id": "DEAL-3046",
+    "company": "Hooli",
+    "owner": "Tom Fischer",
+    "type": "Demo",
+    "date": "2025-03-14",
+    "notes": "Sent proposal v2"
+  },
+  {
+    "activity_id": "ACT-4061",
+    "deal_id": "DEAL-3044",
+    "company": "Soylent Inc",
+    "owner": "Tom Fischer",
+    "type": "Meeting",
+    "date": "2025-03-01",
+    "notes": "Champion changed roles"
+  },
+  {
+    "activity_id": "ACT-4062",
+    "deal_id": "DEAL-3043",
+    "company": "Hooli",
+    "owner": "Lena Osei",
+    "type": "Demo",
+    "date": "2025-02-20",
+    "notes": "Sent proposal v2"
+  },
+  {
+    "activity_id": "ACT-4063",
+    "deal_id": "DEAL-3035",
+    "company": "Hooli",
+    "owner": "Lena Osei",
+    "type": "Email",
+    "date": "2025-02-27",
+    "notes": "Waiting on procurement sign-off"
+  },
+  {
+    "activity_id": "ACT-4064",
+    "deal_id": "DEAL-3053",
+    "company": "Dunder Mifflin",
+    "owner": "Lena Osei",
+    "type": "Call",
+    "date": "2025-02-06",
+    "notes": "Discussed pricing tiers"
+  },
+  {
+    "activity_id": "ACT-4065",
+    "deal_id": "DEAL-3011",
+    "company": "Vandelay Ind",
+    "owner": "Lena Osei",
+    "type": "Follow-up",
+    "date": "2025-03-20",
+    "notes": "Champion changed roles"
+  },
+  {
+    "activity_id": "ACT-4066",
+    "deal_id": "DEAL-3059",
+    "company": "Initech",
+    "owner": "Tom Fischer",
+    "type": "Demo",
+    "date": "2025-03-15",
+    "notes": "Sent proposal v2"
+  },
+  {
+    "activity_id": "ACT-4067",
+    "deal_id": "DEAL-3030",
+    "company": "Umbrella Co",
+    "owner": "Tom Fischer",
+    "type": "Meeting",
+    "date": "2025-06-26",
+    "notes": "Concerns about timeline"
+  },
+  {
+    "activity_id": "ACT-4068",
+    "deal_id": "DEAL-3018",
+    "company": "Nakatomi",
+    "owner": "Lena Osei",
+    "type": "Follow-up",
+    "date": "2025-05-09",
+    "notes": "Requested case studies"
+  },
+  {
+    "activity_id": "ACT-4069",
+    "deal_id": "DEAL-3029",
+    "company": "Gekko Capital",
+    "owner": "Priya Nair",
+    "type": "Follow-up",
+    "date": "2025-01-21",
+    "notes": "Discussed pricing tiers"
+  },
+  {
+    "activity_id": "ACT-4070",
+    "deal_id": "DEAL-3057",
+    "company": "Nakatomi",
+    "owner": "Marco Reyes",
+    "type": "Meeting",
+    "date": "2025-04-21",
+    "notes": "Champion changed roles"
+  },
+  {
+    "activity_id": "ACT-4071",
+    "deal_id": "DEAL-3017",
+    "company": "Gekko Capital",
+    "owner": "Priya Nair",
+    "type": "Call",
+    "date": "2025-01-07",
+    "notes": "Negotiating contract terms"
+  },
+  {
+    "activity_id": "ACT-4072",
+    "deal_id": "DEAL-3044",
+    "company": "Soylent Inc",
+    "owner": "Tom Fischer",
+    "type": "Follow-up",
+    "date": "2025-05-28",
+    "notes": "Discussed pricing tiers"
+  },
+  {
+    "activity_id": "ACT-4073",
+    "deal_id": "DEAL-3049",
+    "company": "Soylent Inc",
+    "owner": "Marco Reyes",
+    "type": "Meeting",
+    "date": "2025-06-22",
+    "notes": "Champion changed roles"
+  },
+  {
+    "activity_id": "ACT-4074",
+    "deal_id": "DEAL-3003",
+    "company": "Vandelay Ind",
+    "owner": "Aisha Khan",
+    "type": "Email",
+    "date": "2025-07-15",
+    "notes": "Requested case studies"
+  },
+  {
+    "activity_id": "ACT-4075",
+    "deal_id": "DEAL-3034",
+    "company": "Wonka LLC",
+    "owner": "Lena Osei",
+    "type": "Demo",
+    "date": "2025-06-16",
+    "notes": "Waiting on procurement sign-off"
+  },
+  {
+    "activity_id": "ACT-4076",
+    "deal_id": "DEAL-3012",
+    "company": "Wonka LLC",
+    "owner": "Marco Reyes",
+    "type": "Demo",
+    "date": "2025-05-30",
+    "notes": "Requested case studies"
+  },
+  {
+    "activity_id": "ACT-4077",
+    "deal_id": "DEAL-3006",
+    "company": "Stark Labs",
+    "owner": "Tom Fischer",
+    "type": "Meeting",
+    "date": "2025-05-01",
+    "notes": "Concerns about timeline"
+  },
+  {
+    "activity_id": "ACT-4078",
+    "deal_id": "DEAL-3022",
+    "company": "Soylent Inc",
+    "owner": "Marco Reyes",
+    "type": "Call",
+    "date": "2025-03-24",
+    "notes": "Client asked for demo"
+  },
+  {
+    "activity_id": "ACT-4079",
+    "deal_id": "DEAL-3022",
+    "company": "Soylent Inc",
+    "owner": "Marco Reyes",
+    "type": "Demo",
+    "date": "2025-04-16",
+    "notes": "Waiting on procurement sign-off"
+  },
+  {
+    "activity_id": "ACT-4080",
+    "deal_id": "DEAL-3043",
+    "company": "Hooli",
+    "owner": "Lena Osei",
+    "type": "Follow-up",
+    "date": "2025-04-13",
+    "notes": "Discussed pricing tiers"
+  }
+]

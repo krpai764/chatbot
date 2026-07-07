@@ -1,0 +1,61 @@
+deal_id,account_id,company,owner,region,stage,amount_usd,probability_pct,source,created_date,close_date
+DEAL-3001,ACC-1002,Globex,Marco Reyes,South,Proposal,48000,50,Event,2025-03-09,2025-05-04
+DEAL-3002,ACC-1014,Gekko Capital,Lena Osei,North,Closed Won,48000,100,Referral,2025-02-09,2025-04-07
+DEAL-3003,ACC-1007,Vandelay Ind,Aisha Khan,North,Negotiation,75000,75,Outbound,2025-01-16,2025-02-12
+DEAL-3004,ACC-1002,Globex,Lena Osei,North,Negotiation,250000,75,Referral,2025-05-16,2025-06-12
+DEAL-3005,ACC-1017,Bluth Co,Aisha Khan,North,Closed Lost,5000,0,Inbound,2025-06-02,2025-09-16
+DEAL-3006,ACC-1008,Stark Labs,Tom Fischer,East,Prospecting,75000,10,Partner,2025-03-05,2025-06-09
+DEAL-3007,ACC-1002,Globex,Lena Osei,North,Prospecting,120000,10,Partner,2025-05-30,2025-08-24
+DEAL-3008,ACC-1011,Pied Piper,Priya Nair,West,Qualification,120000,25,Referral,2025-03-22,2025-05-14
+DEAL-3009,ACC-1013,Massive Dynamic,Marco Reyes,South,Closed Won,25000,100,Outbound,2025-04-28,2025-08-22
+DEAL-3010,ACC-1003,Initech,Aisha Khan,North,Negotiation,75000,75,Inbound,2025-01-26,2025-04-24
+DEAL-3011,ACC-1007,Vandelay Ind,Lena Osei,North,Qualification,25000,25,Referral,2025-01-18,2025-03-26
+DEAL-3012,ACC-1010,Wonka LLC,Marco Reyes,South,Proposal,75000,50,Outbound,2025-06-30,2025-10-06
+DEAL-3013,ACC-1017,Bluth Co,Aisha Khan,North,Closed Won,75000,100,Inbound,2025-03-18,2025-04-24
+DEAL-3014,ACC-1009,Wayne Ent,Aisha Khan,North,Closed Lost,120000,0,Referral,2025-05-22,2025-07-15
+DEAL-3015,ACC-1010,Wonka LLC,Lena Osei,North,Qualification,25000,25,Outbound,2025-02-22,2025-05-17
+DEAL-3016,ACC-1016,Tyrell Corp,Priya Nair,West,Closed Lost,250000,0,Inbound,2025-01-14,2025-04-25
+DEAL-3017,ACC-1014,Gekko Capital,Priya Nair,West,Prospecting,25000,10,Outbound,2025-02-03,2025-03-15
+DEAL-3018,ACC-1015,Nakatomi,Lena Osei,North,Closed Won,75000,100,Inbound,2025-01-03,2025-02-01
+DEAL-3019,ACC-1005,Soylent Inc,Lena Osei,North,Prospecting,25000,10,Partner,2025-05-30,2025-07-07
+DEAL-3020,ACC-1014,Gekko Capital,Marco Reyes,South,Prospecting,25000,10,Outbound,2025-01-11,2025-02-26
+DEAL-3021,ACC-1008,Stark Labs,Aisha Khan,North,Proposal,75000,50,Partner,2025-04-15,2025-08-08
+DEAL-3022,ACC-1005,Soylent Inc,Marco Reyes,South,Closed Lost,250000,0,Event,2025-02-15,2025-03-10
+DEAL-3023,ACC-1006,Hooli,Priya Nair,West,Closed Won,48000,100,Referral,2025-06-21,2025-08-14
+DEAL-3024,ACC-1006,Hooli,Aisha Khan,North,Proposal,5000,50,Referral,2025-05-01,2025-06-15
+DEAL-3025,ACC-1015,Nakatomi,Priya Nair,West,Proposal,250000,50,Referral,2025-02-28,2025-03-23
+DEAL-3026,ACC-1007,Vandelay Ind,Tom Fischer,East,Proposal,250000,50,Outbound,2025-01-18,2025-03-23
+DEAL-3027,ACC-1017,Bluth Co,Tom Fischer,East,Closed Won,250000,100,Outbound,2025-05-18,2025-06-10
+DEAL-3028,ACC-1004,Umbrella Co,Priya Nair,West,Qualification,25000,25,Inbound,2025-01-10,2025-04-16
+DEAL-3029,ACC-1014,Gekko Capital,Priya Nair,West,Closed Won,25000,100,Partner,2025-04-22,2025-07-16
+DEAL-3030,ACC-1004,Umbrella Co,Tom Fischer,East,Closed Lost,12000,0,Inbound,2025-03-07,2025-06-25
+DEAL-3031,ACC-1014,Gekko Capital,Aisha Khan,North,Negotiation,250000,75,Referral,2025-05-18,2025-07-23
+DEAL-3032,ACC-1014,Gekko Capital,Aisha Khan,North,Closed Lost,25000,0,Outbound,2025-06-09,2025-09-21
+DEAL-3033,ACC-1004,Umbrella Co,Priya Nair,West,Negotiation,120000,75,Outbound,2025-04-15,2025-06-25
+DEAL-3034,ACC-1010,Wonka LLC,Lena Osei,North,Prospecting,48000,10,Event,2025-06-20,2025-10-04
+DEAL-3035,ACC-1006,Hooli,Lena Osei,North,Negotiation,48000,75,Inbound,2025-05-21,2025-07-18
+DEAL-3036,ACC-1010,Wonka LLC,Marco Reyes,South,Proposal,75000,50,Outbound,2025-06-05,2025-08-23
+DEAL-3037,ACC-1015,Nakatomi,Tom Fischer,East,Closed Won,75000,100,Referral,2025-05-02,2025-08-14
+DEAL-3038,ACC-1003,Initech,Priya Nair,West,Negotiation,120000,75,Outbound,2025-06-08,2025-07-09
+DEAL-3039,ACC-1008,Stark Labs,Priya Nair,West,Qualification,12000,25,Inbound,2025-02-07,2025-03-04
+DEAL-3040,ACC-1008,Stark Labs,Tom Fischer,East,Closed Won,250000,100,Event,2025-01-19,2025-04-02
+DEAL-3041,ACC-1019,Prestige WW,Marco Reyes,South,Closed Won,48000,100,Event,2025-05-07,2025-06-27
+DEAL-3042,ACC-1005,Soylent Inc,Aisha Khan,North,Closed Lost,250000,0,Event,2025-01-28,2025-03-17
+DEAL-3043,ACC-1006,Hooli,Lena Osei,North,Negotiation,75000,75,Inbound,2025-03-05,2025-05-22
+DEAL-3044,ACC-1005,Soylent Inc,Tom Fischer,East,Closed Won,75000,100,Outbound,2025-06-02,2025-09-26
+DEAL-3045,ACC-1015,Nakatomi,Lena Osei,North,Closed Won,75000,100,Partner,2025-04-20,2025-07-06
+DEAL-3046,ACC-1006,Hooli,Tom Fischer,East,Negotiation,250000,75,Outbound,2025-03-05,2025-07-01
+DEAL-3047,ACC-1017,Bluth Co,Tom Fischer,East,Closed Won,25000,100,Inbound,2025-04-23,2025-08-12
+DEAL-3048,ACC-1010,Wonka LLC,Marco Reyes,South,Qualification,25000,25,Inbound,2025-05-19,2025-06-25
+DEAL-3049,ACC-1005,Soylent Inc,Marco Reyes,South,Proposal,12000,50,Referral,2025-06-30,2025-07-28
+DEAL-3050,ACC-1014,Gekko Capital,Tom Fischer,East,Proposal,48000,50,Inbound,2025-04-17,2025-06-02
+DEAL-3051,ACC-1014,Gekko Capital,Tom Fischer,East,Closed Lost,75000,0,Inbound,2025-06-28,2025-10-23
+DEAL-3052,ACC-1019,Prestige WW,Tom Fischer,East,Negotiation,25000,75,Event,2025-03-18,2025-05-30
+DEAL-3053,ACC-1018,Dunder Mifflin,Lena Osei,North,Closed Won,12000,100,Referral,2025-05-05,2025-06-28
+DEAL-3054,ACC-1014,Gekko Capital,Tom Fischer,East,Prospecting,25000,10,Event,2025-06-21,2025-10-11
+DEAL-3055,ACC-1006,Hooli,Tom Fischer,East,Closed Lost,75000,0,Inbound,2025-05-17,2025-07-26
+DEAL-3056,ACC-1019,Prestige WW,Lena Osei,North,Closed Won,5000,100,Event,2025-06-14,2025-07-21
+DEAL-3057,ACC-1015,Nakatomi,Marco Reyes,South,Prospecting,48000,10,Referral,2025-03-25,2025-06-11
+DEAL-3058,ACC-1011,Pied Piper,Priya Nair,West,Closed Won,48000,100,Event,2025-03-13,2025-05-04
+DEAL-3059,ACC-1003,Initech,Tom Fischer,East,Prospecting,75000,10,Outbound,2025-01-14,2025-03-03
+DEAL-3060,ACC-1003,Initech,Aisha Khan,North,Closed Won,12000,100,Inbound,2025-02-21,2025-05-31
