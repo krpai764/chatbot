@@ -1,4 +1,5 @@
-"""
+
+          """
 LLM module for the DataIntern RAG Engine.
 
 Provides a GeminiLLM wrapper around the Google GenAI SDK for generating
@@ -33,7 +34,7 @@ class GeminiLLM:
         client: An authenticated ``genai.Client`` instance.
     """
 
-    def __init__(self, api_key: str, model: str = "gemini-2.5-flash") -> None:
+    def __init__(self, api_key: str, model: str = "gemini-1.5-flash") -> None:
         """Initialise the Gemini client.
 
         Args:
@@ -117,3 +118,5 @@ class GeminiLLM:
                 exc,
             )
             return {"raw_response": raw_text}
+
+
