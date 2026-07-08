@@ -142,8 +142,9 @@ class QueryEngine:
         chart_json: dict | None = None
         chart_params: dict | None = None
 
-        # 4. Call Gemini with the context.
-        llm_prompt = self._build_prompt(expanded_query, context)
+        # 4. Call Gemini with the context and conversation history.
+        conversation_history = self._memory.get_context_prompt()
+        llm_prompt = self._build_prompt(expanded_query, context, conversation_history)
         llm_response = self._llm.generate_json(
             llm_prompt,
             system_instruction=RAG_SYSTEM_INSTRUCTION,
@@ -205,22 +206,32 @@ class QueryEngine:
     # ------------------------------------------------------------------
 
     @staticmethod
-    def _build_prompt(query: str, context: str) -> str:
-        """Construct the LLM prompt with retrieved context.
+    def _build_prompt(query: str, context: str, conversation_history: str = "") -> str:
+        """Construct the LLM prompt with retrieved context and conversation history.
 
         Args:
             query:   The (possibly expanded) user query.
             context: Formatted context string from the retriever.
+            conversation_history: Prior conversation turns for meta questions.
 
         Returns:
             A prompt string ready for Gemini.
         """
+        history_section = ""
+        if conversation_history:
+            history_section = (
+                f"Conversation History (for context):\n"
+                f"{'─' * 40}\n"
+                f"{conversation_history}\n"
+                f"{'─' * 40}\n\n"
+            )
         return (
+            f"{history_section}"
             f"Context from CRM documents:\n"
             f"{'─' * 40}\n"
             f"{context}\n"
             f"{'─' * 40}\n\n"
             f"Question: {query}\n\n"
-            f"Answer the question using ONLY the context above. "
+            f"Answer the question using the context above and conversation history if relevant. "
             f"Include citations referencing specific files, sheets, pages, or rows."
         )
