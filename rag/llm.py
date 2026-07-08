@@ -1,5 +1,4 @@
-
-          """
+"""
 LLM module for the DataIntern RAG Engine.
 
 Provides a GeminiLLM wrapper around the Google GenAI SDK for generating
@@ -118,5 +117,3 @@ class GeminiLLM:
                 exc,
             )
             return {"raw_response": raw_text}
-
-
