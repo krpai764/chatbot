@@ -29,17 +29,39 @@ Available datasets and columns:
 - activities.json: activity_id, deal_id, company, owner, type, date, notes
 - crm_workbook.xlsx: multiple sheets (Deals, Contacts, Pipeline, etc.)
 
+=== CRITICAL BUSINESS RULES - Always follow these ===
+1. "sales", "revenue", "deals closed", "closed deals" ALWAYS means:
+   - dataset: deals.csv
+   - filter stage == "Closed Won"
+   - target_column: amount_usd
+   - date filter uses close_date (NOT created_date)
+
+2. "total sales in [month]" or "sales for [month]" means:
+   - filter stage == "Closed Won"
+   - filter close_date contains "-MM-" pattern
+   - aggregation: sum, target_column: amount_usd
+
+3. Month name to number mapping:
+   January=01, February=02, March=03, April=04, May=05, June=06,
+   July=07, August=08, September=09, October=10, November=11, December=12
+
+4. "new deals", "deals created", "deals opened" uses created_date (NOT close_date)
+
+5. "employees", "headcount", "team size" refers to accounts.json employees column
+
+6. "activities", "meetings", "calls" refers to activities.json
+
 Provide a JSON response with:
 - "is_data_query": boolean (true if query asks for calculations, sums, averages, lists of rows, counts, or filters on rows)
 - "dataset": filename to load (e.g. "deals.csv", "accounts.json", "contacts.csv", "activities.json")
 - "sheet_name": sheet name if Excel (null otherwise)
-- "filters": list of dicts, each with "column", "operator" (one of "==", "!=", ">", "<", "contains", "in_month"), and "value" (e.g. {"column": "stage", "operator": "==", "value": "Closed Won"})
+- "filters": list of dicts, each with "column", "operator" (one of "==", "!=", ">", "<", "contains", "in_month"), and "value"
 - "aggregation": "sum", "count", "mean", "median", "min", "max", "list" (null if not applicable)
 - "target_column": column to aggregate or calculate (e.g., "amount_usd", "annual_revenue_usd", or null)
 - "group_by": column to group by (null if none)
 - "explanation": brief explanation of what calculation is needed
 
-Example: "total sales for march month"
+Example 1: "total sales in march" or "what is the total sales in month of march?"
 {{
   "is_data_query": true,
   "dataset": "deals.csv",
@@ -51,7 +73,21 @@ Example: "total sales for march month"
   "aggregation": "sum",
   "target_column": "amount_usd",
   "group_by": null,
-  "explanation": "Sum amount_usd for Closed Won deals closed in March (-03-)"
+  "explanation": "Sum amount_usd for Closed Won deals with close_date in March (month 03)"
+}}
+
+Example 2: "how many deals were created in January?"
+{{
+  "is_data_query": true,
+  "dataset": "deals.csv",
+  "sheet_name": null,
+  "filters": [
+    {{"column": "created_date", "operator": "contains", "value": "-01-"}}
+  ],
+  "aggregation": "count",
+  "target_column": null,
+  "group_by": null,
+  "explanation": "Count deals with created_date in January (month 01)"
 }}
 
 Return ONLY valid JSON.
