@@ -33,7 +33,7 @@ class GeminiLLM:
         client: An authenticated ``genai.Client`` instance.
     """
 
-    def __init__(self, api_key: str, model: str = "gemini-2.0-flash") -> None:
+    def __init__(self, api_key: str, model: str = "gemini-2.5-flash") -> None:
         """Initialise the Gemini client.
 
         Args:
