@@ -33,10 +33,9 @@ _CHART_KEYWORDS: list[str] = [
 ]
 
 # Prompt template describing available CRM datasets and their columns.
-_CHART_DETECTION_PROMPT = """\
-You are a chart parameter extractor for a CRM analytics system.
+_CHART_DETECTION_PROMPT = """You are a chart parameter extractor for a CRM analytics system.
 
-Given a user query and retrieved context, determine the chart parameters.
+Given a user query, determine the exact chart parameters needed to visualize the data.
 
 Available datasets and their columns:
 - deals.csv: deal_id, account_id, company, owner, region, stage, amount_usd, probability_pct, source, created_date, close_date
@@ -45,15 +44,48 @@ Available datasets and their columns:
 - activities.json: activity_id, deal_id, company, owner, type, date, notes
 - crm_workbook.xlsx: multiple sheets (Deals, Contacts, Pipeline, etc.)
 
+=== CHART TYPE RULES ===
+- bar chart / bar graph / compare / by region / by stage / by owner -> chart_type: bar
+- pie chart / distribution / breakdown / proportion / share -> chart_type: pie
+- line chart / trend / over time / monthly / timeline -> chart_type: line
+- scatter / correlation / relationship between -> chart_type: scatter
+- histogram / frequency / how many fall in -> chart_type: histogram
+
+=== AGGREGATION RULES ===
+- total, sum -> aggregation: sum
+- average, mean -> aggregation: mean
+- count, how many -> aggregation: count
+- max, highest -> aggregation: max
+- min, lowest -> aggregation: min
+
+=== EXAMPLES ===
+Query: show me a bar chart of total deal amount by region
+{{"chart_type": "bar", "dataset": "deals.csv", "x_column": "region", "y_column": "amount_usd", "color_column": null, "filters": {{}}, "aggregation": "sum", "title": "Total Deal Amount by Region"}}
+
+Query: pie chart of deal stage distribution
+{{"chart_type": "pie", "dataset": "deals.csv", "x_column": "stage", "y_column": "amount_usd", "color_column": null, "filters": {{}}, "aggregation": "count", "title": "Deal Stage Distribution"}}
+
+Query: histogram of deal amounts
+{{"chart_type": "histogram", "dataset": "deals.csv", "x_column": "amount_usd", "y_column": null, "color_column": null, "filters": {{}}, "aggregation": null, "title": "Distribution of Deal Amounts"}}
+
+Query: scatter plot of probability vs amount
+{{"chart_type": "scatter", "dataset": "deals.csv", "x_column": "probability_pct", "y_column": "amount_usd", "color_column": "stage", "filters": {{}}, "aggregation": null, "title": "Deal Probability vs Amount"}}
+
+Query: bar chart of closed won deals by owner
+{{"chart_type": "bar", "dataset": "deals.csv", "x_column": "owner", "y_column": "amount_usd", "color_column": null, "filters": {{"stage": "Closed Won"}}, "aggregation": "sum", "title": "Closed Won Deal Amount by Owner"}}
+
+Query: bar chart of number of employees by industry
+{{"chart_type": "bar", "dataset": "accounts.json", "x_column": "industry", "y_column": "employees", "color_column": null, "filters": {{}}, "aggregation": "sum", "title": "Total Employees by Industry"}}
+
 Respond with a JSON object containing exactly these keys:
-- "chart_type": one of "bar", "line", "pie", "scatter", "histogram"
-- "dataset": the filename to load (e.g. "deals.csv")
-- "x_column": column for the x-axis
-- "y_column": column for the y-axis (omit for histogram)
-- "color_column": optional grouping column (null if not applicable)
-- "filters": dict of column->value filters (empty dict if none)
-- "aggregation": one of "sum", "count", "mean", "median", "min", "max" (null if not applicable)
-- "title": a descriptive chart title
+- chart_type: one of bar, line, pie, scatter, histogram
+- dataset: the filename to load
+- x_column: column for the x-axis or pie names
+- y_column: column for the y-axis (null for histogram)
+- color_column: optional grouping column (null if not applicable)
+- filters: dict of column->value equality filters (empty dict if none)
+- aggregation: one of sum, count, mean, median, min, max (null if not applicable)
+- title: a descriptive chart title
 
 User query: {query}
 
@@ -63,6 +95,7 @@ Retrieved context:
 {context}
 
 Return ONLY valid JSON, no extra text."""
+
 
 
 class ChartDetector:
